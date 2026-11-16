@@ -6,7 +6,7 @@ const c = 30;
 console.log(a, b, c); //10 20 30
 
 // 2 Create variables for name, age, salary, and working status.
-let name = "Hari";
+let name = "kira";
 let age = 23;
 let salary = 42000;
 let isWorking = true; 
@@ -22,8 +22,8 @@ console.log(fruits[fruits.length - 1]);
 
 // 5 Create an object containing name, age, location, and skills. Print each property.
 let person = {
-  name: "Hari",
-  age: 23,
+  name: "kira",
+  age: 21,
   location: "Salem",
   skills: ["HTML", "CSS", "JavaScript"]
 };
@@ -212,9 +212,9 @@ switch (dayNo) {
 }
 
 // 29 Create a simple login condition using a username and password.
-let username = "Hari";
-let password = "MY CAR WORLD 143";
-if (username === "admin" && password === "MY CAR WORLD 143") {
+let username = "kira";
+let password = "MY ANIME WORLD ";
+if (username === "admin" && password === "MY ANIME WORD ") {
   console.log("Login successful");
 } else {
   console.log("Invalid credentials");
@@ -295,8 +295,8 @@ for (let lang of languages) {
 
 // 41 Create an object with properties name, age, location, and designation. Use for-in to print each property and its value.
 let employee = {
-  name: "Hari",
-  age: 23,
+  name: "kira",
+  age: 21,
   location: "Salem",
   designation: "Java Full Stack Developer"
 };
@@ -319,7 +319,7 @@ for (let i = 0; i < marks.length; i++) {
 }
 
 // 44 Create an object containing employee name, age, salary, and location. Use for-in to display all properties.
-let emp = { name: "Hari", age: 23, salary: 42000, location: "Salem" };
+let emp = { name: "kira", age: 21, salary: 40000, location: "Salem" };
 for (let key in emp) {
   console.log(`${key}: ${emp[key]}`);
 }
@@ -335,7 +335,7 @@ for (let v of numbers) {
 }
 
 // 46 Create a student object with name and marks. Use if-else to display Pass or Fail.
-let student = { name: "Hari", marks: 90 };
+let student = { name: "kira", marks: 90 };
 if (student.marks >= 35) {
   console.log(student.name + ": Pass");
 } else {
@@ -397,10 +397,10 @@ if (emp2.salary > 25000) {
 }
 
 // 51 Create a login system using username, password, and if-else. Display the appropriate message.
-let savedUser = "Hari";
-let savedPass = "Hari@143";
-let enteredUser = "Hari";
-let enteredPass = "Hari@143";
+let savedUser = "kira";
+let savedPass = "kira@1228";
+let enteredUser = "kira";
+let enteredPass = "kira@1228";
 if (enteredUser === savedUser && enteredPass === savedPass) {
   console.log("Welcome to My Car World");
 } else if (enteredUser !== savedUser) {
